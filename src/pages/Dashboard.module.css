@@ -1,0 +1,28 @@
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.dashboardHeader h1 {
+    margin-bottom: 8px;
+    color: #0f172a;
+}
+
+.dashboardHeader p {
+    color: #64748b;
+    margin: 0;
+}
+
+.dashboardBottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+@media (max-width: 900px) {
+    .dashboardBottom {
+        grid-template-columns: 1fr;
+    }
+}

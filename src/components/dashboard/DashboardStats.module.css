@@ -1,0 +1,26 @@
+.statsContainer {
+	display: flex;
+	flex-wrap: wrap;
+  gap: 20px;
+}
+
+.statCard {
+	flex: 1 1 220px;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+}
+
+.statTitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: #64748b;
+}
+
+.statValue {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0f172a;
+}

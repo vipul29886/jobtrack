@@ -5,6 +5,8 @@ import Reports from './pages/Reports'
 import Settings from './pages/Settings'
 import MainLayout from './components/layout/Mainlayout'
 
+import './App.css'
+
 function App() {
 
   return (

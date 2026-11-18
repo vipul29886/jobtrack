@@ -1,0 +1,35 @@
+
+.interviewContainer {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.interviewTable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.interviewTable th,
+.interviewTable td {
+    padding: 14px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.interviewTable th {
+    color: #64748b;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.interviewTable td {
+    color: #334155;
+    font-size: 14px;
+}
+
+.interviewTable tbody tr:last-child td {
+    border-bottom: none;
+}

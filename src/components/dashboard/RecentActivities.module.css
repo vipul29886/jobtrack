@@ -1,0 +1,39 @@
+.activityList {
+	display: flex;
+	flex-direction: column;
+	background: #ffffff;
+	border: 1px solid #e5e7eb;
+	border-radius: 10px;
+	padding: 0 20px;
+}
+
+.activityCard {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 16px;
+	padding: 18px 0;
+	border-bottom: 1px solid #e5e7eb;
+}
+
+.activityCard:last-child {
+	border-bottom: none;
+}
+
+.activityCard p {
+	margin: 0;
+}
+
+.activityCard span {
+	color: #64748b;
+	font-size: 13px;
+	white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+	.activityCard {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 8px;
+	}
+}
