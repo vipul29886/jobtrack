@@ -1,0 +1,59 @@
+.candidateForm {
+	width: 100%;
+}
+
+.formGrid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+@media (max-width: 600px) {
+	.formGrid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.formGroup {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.formGroup label {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.formGroup input {
+	padding: 10px 12px;
+	border: 1px solid #d1d5db;
+	border-radius: 6px;
+	font-size: 14px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.formGroup input:focus {
+	outline: none;
+	border-color: #2563eb;
+}
+
+.formGroup select {
+	padding: 10px 12px;
+	border: 1px solid #d1d5db;
+	border-radius: 6px;
+	font-size: 14px;
+	width: 100%;
+	box-sizing: border-box;
+	background: #ffffff;
+}
+
+.error {
+	color: #dc2626;
+	font-size: 12px;
+}
+
+.inputError {
+	border-color: #dc2626 !important;
+}

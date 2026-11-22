@@ -1,0 +1,110 @@
+.candidatesPage {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.pageHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 16px;
+}
+
+.pageHeader h1 {
+	color: #0f172a;
+	margin-bottom: 8px;
+}
+
+.pageHeader p {
+	color: #64748b;
+	margin: 0;
+}
+
+.tableContainer {
+	background: #ffffff;
+	border: 1px solid #e5e7eb;
+	border-radius: 10px;
+	padding: 20px;
+	overflow-x: auto;
+}
+
+.candidateTable {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.candidateTable th,
+.candidateTable td {
+	padding: 14px;
+	border-bottom: 1px solid #e5e7eb;
+	white-space: nowrap;
+}
+
+.candidateTable th {
+	color: #64748b;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.candidateTable td {
+	color: #334155;
+	font-size: 14px;
+}
+
+.candidateTable tbody tr:last-child td {
+	border-bottom: none;
+}
+
+.statusBadge {
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 20px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.sourced {
+	background: #f1f5f9;
+	color: #475569;
+}
+
+.screening {
+	background: #dbeafe;
+	color: #1d4ed8;
+}
+
+.shortlisted {
+	background: #f3e8ff;
+	color: #7e22ce;
+}
+
+.interview {
+	background: #ffedd5;
+	color: #c2410c;
+}
+
+.hired {
+	background: #dcfce7;
+	color: #15803d;
+}
+
+.rejected {
+	background: #fee2e2;
+	color: #b91c1c;
+}
+
+.addCandidateBtn {
+	background: #2563eb;
+	color: #ffffff;
+	border: none;
+	padding: 10px 18px;
+	border-radius: 6px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.addCandidateBtn:hover {
+	background: #1d4ed8;
+}

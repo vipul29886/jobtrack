@@ -3,6 +3,7 @@ import Dashboard from './pages/Dashboard'
 import Applications from './pages/Applications'
 import Reports from './pages/Reports'
 import Settings from './pages/Settings'
+import Candidates from './pages/Candidates'
 import MainLayout from './components/layout/Mainlayout'
 
 import './App.css'
@@ -14,9 +15,10 @@ function App() {
       <Routes>
         <Route path='/' element={<MainLayout/>}>
           <Route index element={<Dashboard />} />
-          <Route path='applications' element={<Applications />} />
+          <Route path="candidates" element={<Candidates />} />
+          {/* <Route path='applications' element={<Applications />} />
           <Route path='reports' element={<Reports />} />
-          <Route path='settings' element={<Settings />} />
+          <Route path='settings' element={<Settings />} /> */}
         </Route>
       </Routes>
     </>
